@@ -273,7 +273,6 @@ public class HealthDataSimulator {
 //        alertGenerator.triggerAlert(new Alert(patiend))
 //    }
 
-    @Test
     public static void showTestRun(){
         try{outputStrategy.output(1, 1700000000000L, "Alert", "triggered");}
         catch(Exception e){
